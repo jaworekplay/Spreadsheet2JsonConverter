@@ -1,0 +1,16 @@
+db.lock
+storage.ide
+storage.ide-shm
+storage.ide-wal
+*.pdb
+*.baml
+*.g.cs
+*.g.i.cs
+*.g.resources
+*.resources
+*.cache
+*.Cache
+*.Designer.cs
+*.lref
+obj/
+
