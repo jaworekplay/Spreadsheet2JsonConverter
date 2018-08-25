@@ -13,4 +13,4 @@ storage.ide-wal
 *.Designer.cs
 *.lref
 obj/
-
+bin/

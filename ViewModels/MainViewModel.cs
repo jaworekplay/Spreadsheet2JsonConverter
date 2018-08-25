@@ -9,9 +9,10 @@ namespace Spreadsheet2JsonConverter.ViewModels
     {
         public MainViewModel()
         {
-            OpenFileCommand = new RelayCommand.Command(openFileCOmmandMethod);
+            OpenFileCommand = new RelayCommand.Command(openFileCommandMethod);
             OpenFileService = new GetFilePathOpenDialogService();
         }
+
         public IGetFilePathService OpenFileService { get; private set; }
 
         private ICommand openFileCommand;
@@ -22,7 +23,7 @@ namespace Spreadsheet2JsonConverter.ViewModels
             set { openFileCommand = value; OnPropertyChanged(); }
         }
 
-        private void openFileCOmmandMethod(object parameter)
+        private void openFileCommandMethod(object parameter)
         {
             try
             {

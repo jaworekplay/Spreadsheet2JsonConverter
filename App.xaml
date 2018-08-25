@@ -8,7 +8,7 @@
             <DockPanel LastChildFill="True" Margin="5">
                 <DockPanel DockPanel.Dock="Top" LastChildFill="True">
                     <Button DockPanel.Dock="Right" Content="_..." Margin="4,0,0,0" Width="24" Height="24"
-                    Command="{Binding OpenFileCommand}" CommandParameter="{Binding}"/>
+                    Command="{Binding OpenFileCommand}"/>
                     <TextBox Text="{Binding FilePath}" VerticalContentAlignment="Center"/>
                 </DockPanel>
                 <TextBlock Text="{Binding FileContent}" Padding="4" />
